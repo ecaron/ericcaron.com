@@ -7,7 +7,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
   <!-- Site Properties -->
-  <title>Homepage - Semantic</title>
+  <title><%= title %></title>
+  <meta name="description" content="<%= description %>" />
   <link rel="stylesheet" type="text/css" href="assets/semantic/semantic.min.css">
   <link rel="stylesheet" type="text/css" href="assets/custom.css">
 
@@ -38,17 +39,14 @@
 <!-- Following Menu -->
 <div class="ui large top fixed hidden menu">
   <div class="ui container">
-    <a class="active item">Home</a>
-    <a class="item">Work</a>
-    <a class="item">Company</a>
-    <a class="item">Careers</a>
-    <div class="right menu">
-      <div class="item">
-        <a class="ui button">Log in</a>
-      </div>
-      <div class="item">
-        <a class="ui primary button">Sign Up</a>
-      </div>
+    <a href="/" class="item <%- current.source == 'index' ? 'active' : '' %>">Home</a>
+    <a href="#" class="item <%- current.source == 'qwre' ? 'active' : '' %>">Work</a>
+    <a href="#" class="item <%- current.source == 'asf' ? 'active' : '' %>">Company</a>
+    <a href="/contact.html" class="item <%- current.source == 'contact' ? 'active' : '' %>">Contact Me</a>
+    <div class="right menu" style="padding:4px">
+      <a class="circular ui icon button linkedin" href="https://www.linkedin.com/in/ecaron"><i class="linkedin icon"></i></a>
+      <a class="circular ui icon button github" href="https://github.com/ecaron"><i class="github icon"></i></a>
+      <a class="circular ui icon button twitter" href="https://twitter.com/ecaron"><i class="twitter icon"></i></a>
     </div>
   </div>
 </div>
@@ -77,13 +75,13 @@
           <h4 class="ui inverted header">About</h4>
           <div class="ui inverted link list">
             <a href="#" class="item">Sitemap</a>
-            <a href="#" class="item">Contact Us</a>
+            <a href="contact.html" class="item <%- current.source == 'contact' ? 'active' : '' %>">Contact Me</a>
             <a href="#" class="item">Religious Ceremonies</a>
             <a href="#" class="item">Gazebo Plans</a>
           </div>
         </div>
         <div class="three wide column">
-          <h4 class="ui inverted header">Services</h4>
+          <h4 class="ui inverted header">Resources</h4>
           <div class="ui inverted link list">
             <a href="#" class="item">Banana Pre-Order</a>
             <a href="#" class="item">DNA FAQ</a>
@@ -92,8 +90,9 @@
           </div>
         </div>
         <div class="seven wide column">
-          <h4 class="ui inverted header">Footer Header</h4>
-          <p>Extra space for a call to action inside the footer that could help re-engage users.</p>
+          <h4 class="ui inverted header">Thanks For Visiting</h4>
+          <p>ericcaron.com typically redirected to either my GitHub, Twitter or LinkedIn profiles. When I recognized my digital presence was continuing to fragment, I threw this together to organize the chaos.</p>
+          <p>Have suggestions for how I can further improve this site? Please <a href="contact.html">contact me</a>.</p>
         </div>
       </div>
     </div>
