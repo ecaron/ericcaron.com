@@ -1,0 +1,26 @@
+{
+  "base": "",
+  "paths": {
+    "source": {
+      "config": "semantic/src/theme.config",
+      "definitions": "semantic/src/definitions/",
+      "site": "semantic/src/site/",
+      "themes": "semantic/src/themes/"
+    },
+    "output": {
+      "packaged": "public/assets/semantic/",
+      "uncompressed": "public/assets/semantic/components/",
+      "compressed": "public/assets/semantic/components/",
+      "themes": "public/assets/semantic/themes/"
+    },
+    "clean": "public/assets/semantic/"
+  },
+  "permission": false,
+  "autoInstall": false,
+  "rtl": false,
+  "version": "2.2.6",
+  "components": [
+    "reset", "site", "container", "grid", "header",
+    "image", "menu", "divider", "dropdown", "segment", "button", "list",
+    "icon", "sidebar", "transition", "visibility"]
+}
