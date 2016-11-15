@@ -9,11 +9,11 @@
   <!-- Site Properties -->
   <title><%= title %></title>
   <meta name="description" content="<%= description %>" />
-  <link rel="stylesheet" type="text/css" href="assets/semantic/semantic.min.css">
-  <link rel="stylesheet" type="text/css" href="assets/custom.css">
+  <link rel="stylesheet" type="text/css" href="/assets/semantic/semantic.min.css">
+  <link rel="stylesheet" type="text/css" href="/assets/custom.css">
 
   <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha256-/SIrNqv8h6QGKDuNoLGA4iret+kyesCkHGzVUUV0shc=" crossorigin="anonymous"></script>
-  <script src="assets/semantic/semantic.min.js"></script>
+  <script src="/assets/semantic/semantic.min.js"></script>
   <script>
   $(document).ready(function() {
     // fix menu when passed
@@ -35,14 +35,10 @@
   </script>
 </head>
 <body>
-
 <!-- Following Menu -->
 <div class="ui large top fixed hidden menu">
   <div class="ui container">
-    <a href="/" class="item <%- current.source == 'index' ? 'active' : '' %>">Home</a>
-    <a href="#" class="item <%- current.source == 'qwre' ? 'active' : '' %>">Work</a>
-    <a href="#" class="item <%- current.source == 'asf' ? 'active' : '' %>">Company</a>
-    <a href="/contact.html" class="item <%- current.source == 'contact' ? 'active' : '' %>">Contact Me</a>
+    <%- partial("_header-left") %>
     <div class="right menu" style="padding:4px">
       <a class="circular ui icon button linkedin" href="https://www.linkedin.com/in/ecaron"><i class="linkedin icon"></i></a>
       <a class="circular ui icon button github" href="https://github.com/ecaron"><i class="github icon"></i></a>
@@ -72,24 +68,25 @@
     <div class="ui container">
       <div class="ui stackable inverted divided equal height stackable grid">
         <div class="three wide column">
-          <h4 class="ui inverted header">About</h4>
+          <h4 class="ui inverted header <%- current.source == 'about' ? 'active' : '' %><%- current.path[0] == 'about' ? 'active' : '' %>">About</h4>
           <div class="ui inverted link list">
-            <a href="#" class="item">Sitemap</a>
-            <a href="contact.html" class="item <%- current.source == 'contact' ? 'active' : '' %>">Contact Me</a>
-            <a href="#" class="item">Religious Ceremonies</a>
-            <a href="#" class="item">Gazebo Plans</a>
+            <a href="/about/articles.html" class="item <%- current.source == 'articles' ? 'active' : '' %>">Articles I've Written</a>
+            <a href="/about/side-projects.html" class="item <%- current.source == 'side-projects' ? 'active' : '' %>">Side Projects</a>
+            <a href="/about/ephs-speech-team.html" class="item <%- current.source == 'ephs-speech-team' ? 'active' : '' %>">Eden Prairie Speech Team</a>
+            <a href="/contact.html" class="item <%- current.source == 'contact' ? 'active' : '' %>">Contact Me</a>
           </div>
         </div>
-        <div class="three wide column">
-          <h4 class="ui inverted header">Resources</h4>
+        <div class="four wide column">
+          <h4 class="ui inverted header <%- current.source == 'interests' ? 'active' : '' %><%- current.path[0] == 'interests' ? 'active' : '' %>">Interests</h4>
           <div class="ui inverted link list">
-            <a href="#" class="item">Banana Pre-Order</a>
-            <a href="#" class="item">DNA FAQ</a>
-            <a href="#" class="item">How To Access</a>
-            <a href="#" class="item">Favorite X-Men</a>
+            <a href="/interests/minnesota-tech-scene.html" class="item <%- current.source == 'minnesota-tech-scene' ? 'active' : '' %>">Minnesota Tech Scene</a>
+            <a href="/interests/minnesota-food-scene.html" class="item <%- current.source == 'minnesota-food-scene' ? 'active' : '' %>">Minnesota Food Scene</a>
+            <a href="/interests/recruiting-and-people-management.html" class="item <%- current.source == 'recruiting-and-people-management' ? 'active' : '' %>">Recruiting &amp; People Management</a>
+            <a href="/interests/open-source-and-programming.html" class="item <%- current.source == 'open-source-and-programming' ? 'active' : '' %>">Open Source &amp; Programming</a>
+            <a href="/interests/product-managements-and-apis.html" class="item <%- current.source == 'product-managements-and-apis' ? 'active' : '' %>">Product Management &amp; APIs</a>
           </div>
         </div>
-        <div class="seven wide column">
+        <div class="six wide column">
           <h4 class="ui inverted header">Thanks For Visiting</h4>
           <p>ericcaron.com typically redirected to either my GitHub, Twitter or LinkedIn profiles. When I recognized my digital presence was continuing to fragment, I threw this together to organize the chaos.</p>
           <p>Have suggestions for how I can further improve this site? Please <a href="contact.html">contact me</a>.</p>
