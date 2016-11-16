@@ -8,13 +8,13 @@
     padding: 1em 0em;
   }
 
-  .logo.item img {
-    margin-right: 1em;
-  }
-
   .ui.menu .ui.button {
     margin-left: 0.5em;
   }
+  .ui.pointing.menu a {
+    display: inline-block;
+  }
+
   h1.ui.header {
     margin-top: 1em;
     margin-bottom: 0em;
@@ -31,9 +31,7 @@
   padding: 4em 0em;
   h3 {
     font-size: 2em;
-  }
-  .button + h3, p + h3 {
-    margin-top: 3em;
+    margin-top: 2em;
   }
   .floated.image {
     clear: both;
@@ -58,8 +56,13 @@
   &.segment {
     padding: 5em 0em;
   }
-  h4.active {
-    text-decoration: underline;
+  h4 {
+    a {
+      color: white;
+      &.active {
+        text-decoration: underline;
+      }
+    }
   }
 }
 
@@ -68,17 +71,6 @@
 }
 
 @media only screen and (max-width: 700px) {
-  .ui.fixed.menu {
-    display: none !important;
-  }
-  .secondary.pointing.menu {
-    .item, .menu {
-      display: none;
-    }
-    .toc.item {
-      display: block;
-    }
-  }
   .masthead {
     &.segment {
       min-height: 350px;
@@ -91,6 +83,11 @@
       margin-top: 0.5em;
       font-size: 1.5em;
     }
+    .item a.ui.button {
+      box-shadow: 0 0 0 0 !important;
+      span {
+        display: none;
+      }
+    }
   }
 }
-
