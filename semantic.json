@@ -20,7 +20,7 @@
   "rtl": false,
   "version": "2.2.6",
   "components": [
-    "reset", "site", "container", "grid", "header",
+    "reset", "site", "container", "grid", "header", "message",
     "image", "menu", "divider", "dropdown", "segment", "button", "list",
     "icon", "sidebar", "transition", "visibility"]
 }
