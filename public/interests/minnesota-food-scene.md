@@ -1,1 +1,1 @@
-minnesota-food-scene
+# Minnesota Food & Beer Scene
