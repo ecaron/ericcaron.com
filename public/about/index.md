@@ -18,4 +18,4 @@ About the time my oldest son was born, I had the opportunity to work with Doug B
 
 Now I'm at Best Buy, and given how much of my childhood money was spent there it was probably inevitable. [I wrote a blog post when I joined](https://medium.com/best-buy-developers/a-best-buy-fanboi-takes-over-the-api-team-4037ba67947c), and I'm continuing to have a great time. In both obvious & unexpected ways, it is both similar and different to the startups that comprise my background. If you'd like to stay abreast of what I'm doing at Best Buy, watching the [Best Buy Developer Blog](https://medium.com/best-buy-developers/) is the best source of information.
 
-If you'd like to know more, you should [check out my interests](/interests.html) or [just ask](/contact.html).
+If you'd like to know more, you should [check out my interests](/interests/) or [just ask](/contact.html).

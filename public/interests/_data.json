@@ -1,17 +1,20 @@
 {
+  "index": {
+    "title": "Interests of Eric Caron - EricCaron.com"
+  },
   "minnesota-tech-scene": {
-    "title": "About Eric Caron - EricCaron.com"
+    "title": "Minnesota Tech Scene - EricCaron.com"
   },
   "minnesota-food-scene": {
-    "title": "About Eric Caron - EricCaron.com"
+    "title": "Minnesota Food Scene - EricCaron.com"
   },
   "recruiting-and-people-management": {
-    "title": "About Eric Caron - EricCaron.com"
+    "title": "Recruiting & People Management - EricCaron.com"
   },
   "open-source-and-programming": {
-    "title": "About Eric Caron - EricCaron.com"
+    "title": "Open Source & Programming - EricCaron.com"
   },
   "product-management-and-apis": {
-    "title": "Contact Eric Caron - EricCaron.com"
+    "title": "Product Management & APIs - EricCaron.com"
   }
 }
