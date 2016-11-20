@@ -8,7 +8,6 @@
 
   <!-- Site Properties -->
   <title><%= title %></title>
-  <meta name="description" content="<%= description %>" />
   <link rel="stylesheet" type="text/css" href="/assets/semantic/semantic.min.css">
   <link rel="stylesheet" type="text/css" href="/assets/custom.css">
 
@@ -49,15 +48,15 @@
   <div class="ui container">
     <%- partial('_header-left') %>
     <div class="right menu" style="padding:4px">
-      <a class="circular ui icon button linkedin" href="https://www.linkedin.com/in/ecaron"><i class="linkedin icon"></i></a>
-      <a class="circular ui icon button github" href="https://github.com/ecaron"><i class="github icon"></i></a>
-      <a class="circular ui icon button twitter" href="https://twitter.com/ecaron"><i class="twitter icon"></i></a>
+      <a class="circular ui icon button linkedin" href="https://www.linkedin.com/in/ecaron" title="Eric Caron's LinkedIn Profile"><i class="linkedin icon"></i></a>
+      <a class="circular ui icon button github" href="https://github.com/ecaron" title="Eric Caron's GitHub Profile"><i class="github icon"></i></a>
+      <a class="circular ui icon button twitter" href="https://twitter.com/ecaron" title="Eric Caron's Twitter Account"><i class="twitter icon"></i></a>
     </div>
   </div>
 </div>
 
 <!-- Page Contents -->
-<% if(current.source == 'index') { %>
+<% if(current.path[0] == 'index') { %>
   <%- yield %>
 <% } else { %>
   <div class="ui main text container">
@@ -69,11 +68,12 @@
   <div class="ui container">
     <div class="ui stackable inverted divided equal height stackable grid">
       <div class="three wide column">
-        <h4 class="ui header"><a href="/about.html" class="<%- current.path[0] == 'about' ? 'active' : '' %>">About</a></h4>
+        <h4 class="ui header"><a href="/about/" class="<%- current.path[0] == 'about' ? 'active' : '' %>">About</a></h4>
         <div class="ui inverted link list">
           <a href="/about/articles.html" class="item <%- current.source == 'articles' ? 'active' : '' %>">My Articles &amp; Talks</a>
           <a href="/about/side-projects.html" class="item <%- current.source == 'side-projects' ? 'active' : '' %>">Side Projects</a>
           <a href="/about/ephs-speech-team.html" class="item <%- current.source == 'ephs-speech-team' ? 'active' : '' %>">Eden Prairie Speech Team</a>
+          <a href="/about/this-site.html" class="item <%- current.source == 'this-site' ? 'active' : '' %>">Code Powering This Site</a>
           <a href="/contact.html" class="item <%- current.source == 'contact' ? 'active' : '' %>">Contact Me</a>
         </div>
       </div>

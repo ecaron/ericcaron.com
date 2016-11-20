@@ -1,14 +1,17 @@
 {
+  "index": {
+    "title": "About Eric Caron - EricCaron.com"
+  },
   "articles": {
-    "title": "About Eric Caron - EricCaron.com",
-    "description": ""
+    "title": "About Eric Caron - EricCaron.com"
   },
   "side-projects": {
-    "title": "About Eric Caron - EricCaron.com",
-    "description": ""
+    "title": "About Eric Caron - EricCaron.com"
+  },
+  "this-site": {
+    "title": "What Powers EricCaron.com"
   },
   "ephs-speech-team": {
-    "title": "Eden Prairie Speech Team - EricCaron.com",
-    "description": ""
+    "title": "Eden Prairie Speech Team - EricCaron.com"
   }
 }
