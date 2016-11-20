@@ -11,5 +11,6 @@ Rather than covering the [well-worn](https://techcrunch.com) [path](https://news
 * [GitHub Audio (Great whitenoise for working)](https://github.audio/)
 * [Outgoing port tester](http://portquiz.net/)
 * [Docker Jumpstart](http://odewahn.github.io/docker-jumpstart/)
+* [The Changelog Podcast](https://changelog.com/podcast)
 
 I've been debating on sharing this list as an RSS feed. If you think this is a decent idea, [tell me you still use RSS](mailto:eric.caron@gmail.com).
