@@ -1,2 +1,17 @@
 # My Articles & Talks
 
+If you'd like me to talk to your event or conference, please [email me](mailto:eric.caron@gmail.com). I prefer to avoid events in November, since that's a busy time of year. Also I would like two months notice for any events outside of Minnesota, so I can make all the necessary arrangements without stressing the family.
+
+## Articles
+* [API Documentation Can’t [Yet] Document APIs](https://medium.com/@ecaron/api-documentation-cant-yet-document-apis-fba662c68b4b)
+* [Why I stopped hacking the Amazon Dash button and learned to solder](https://medium.com/@ecaron/why-i-stopped-hacking-the-amazon-dash-button-and-learned-to-solder-84386a38bbd1)
+* [6 Things We Should Agree About Email](https://medium.com/@ecaron/6-things-we-should-agree-about-email-7a91b72d909)
+
+## Talks
+* [The Blessings and Curses of Offering a Free Public API](https://apiworld2016.sched.org/event/7tRQ/the-blessings-and-curses-of-offering-a-free-public-api)
+* [API Management Tools](https://github.com/minnesota-apis/may-2016-kong)
+* [Your Friendly Neighbood HTTP Status Codes](http://minnesota-apis.github.io/october-2015-friendly-neighborhood-status-codes/)
+* [Jobseeking: As Tough as it Sounds?](https://www.youtube.com/watch?v=InDkmFN3ov8)
+* [TrackIF Presentation at Minnedemo](https://vimeo.com/76580631)
+
+I'm still working on completing this list (I haven't done a good job of keeping track of all my talks and writings). If you know of one that I've overlooked, [let me know](mailto:eric.caron@gmail.com).
