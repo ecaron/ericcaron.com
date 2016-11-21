@@ -5,9 +5,9 @@
   "main": "index.js",
   "private": true,
   "scripts": {
-    "start": "harp server",
-    "compile": "harp compile public build",
-    "edit-style": "harp server & gulp watch"
+    "start": "BUILD_NUMBER=developer harp server",
+    "compile": "BUILD_NUMBER=`git rev-parse --short HEAD` harp compile public build",
+    "edit-style": "BUILD_NUMBER=developer harp server & gulp watch"
   },
   "repository": {
     "type": "git",

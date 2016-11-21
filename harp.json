@@ -1,6 +1,7 @@
 {
   "globals": {
     "title": "EricCaron.com",
-    "description": ""
+    "description": "",
+    "buildNumber": "$BUILD_NUMBER"
   }
 }
