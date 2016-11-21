@@ -1,5 +1,10 @@
-.hidden.menu {
-  display: none;
+.ui.menu {
+  &.hidden {
+    display: none;
+  }
+  .right.menu {
+    padding:4px;
+  }
 }
 
 .masthead {
@@ -46,6 +51,15 @@
 }
 
 @media only screen and (max-width: 1000px) {
+  .ui.menu {
+    .item {
+      font-size: 95%;
+      padding: .8em;
+    }
+    .right.menu {
+      visibility: hidden;
+    }
+  }
   .masthead {
     &.segment {
       min-height: 350px;
