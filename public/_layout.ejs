@@ -9,6 +9,12 @@
   <title><%= title %></title>
   <link rel="stylesheet" type="text/css" href="/assets/semantic/semantic.min.css?<%= buildNumber %>">
   <link rel="stylesheet" type="text/css" href="/assets/custom.css?<%= buildNumber %>">
+  <% if(amp) { %>
+    <% var ampPath = current.path.join('/') + '.html'; %>
+    <% var replace = /index\.html$/; %>
+    <% ampPath = ampPath.replace(replace, ''); %>
+    <link rel="amphtml" href="/amp/<%= ampPath %>">
+  <% } %>
 
   <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha256-/SIrNqv8h6QGKDuNoLGA4iret+kyesCkHGzVUUV0shc=" crossorigin="anonymous"></script>
   <script src="/assets/semantic/semantic.min.js?<%= buildNumber %>"></script>

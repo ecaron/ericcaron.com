@@ -1,5 +1,8 @@
 {
   "contact": {
     "title": "Contact Eric Caron - EricCaron.com"
+  },
+  "index": {
+    "amp": true
   }
 }
