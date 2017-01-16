@@ -5,7 +5,9 @@
   "main": "index.js",
   "private": true,
   "scripts": {
-    "start": "BUILD_NUMBER=developer harp server",
+    "start": "parallelshell 'npm run startMainServer' 'npm run startAmpServer'",
+    "startMainServer": "BUILD_NUMBER=developer BUILD_TYPE=main AMP_SERVER=http://localhost:3002 harp server --port 3001",
+    "startAmpServer": "BUILD_NUMBER=developer BUILD_TYPE=amp MAIN_SERVER=http://localhost:3001 harp server --port 3002",
     "compile": "BUILD_NUMBER=`git rev-parse --short HEAD` harp compile public build",
     "edit-style": "BUILD_NUMBER=developer harp server & gulp watch"
   },
@@ -48,6 +50,7 @@
     "gulp-watch": "^4.3.10",
     "harp": "^0.22.0",
     "map-stream": "0.0.6",
+    "parallelshell": "^2.0.0",
     "require-dot-file": "^0.4.0",
     "run-sequence": "^1.2.2",
     "semantic-ui": "^2.2.6",
