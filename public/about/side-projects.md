@@ -4,6 +4,7 @@ I had toyed with calling them "passion projects", but that would have been unfai
 
 ## [IoT Nightlight for My Son](https://github.com/ecaron/hue-website-nightlights)
 ![The Nightlight in action](https://cloud.githubusercontent.com/assets/70704/12696100/d261de2c-c726-11e5-9022-74036dab6a3a.gif)
+<amp-img src="https://cloud.githubusercontent.com/assets/70704/12696100/d261de2c-c726-11e5-9022-74036dab6a3a.gif" width="640" height="360"></amp-img>
 
 Taken from [my README file](https://github.com/ecaron/hue-website-nightlights/blob/master/README.md), I wanted my kids to have a nightlight in their room that:
 * Had programmable color
@@ -17,6 +18,7 @@ Kaleb loves it, and I recently moved from [an Amazon Dash to a Raspberry Pi](htt
 
 ## [Bandwidth Tester & Measurer](https://github.com/ecaron/node-bandwidth-tester)
 ![The Graph in action](https://github.com/ecaron/node-bandwidth-tester/raw/master/remote-host-example/bandwidth-chart.png?raw=true)
+<amp-img src="https://github.com/ecaron/node-bandwidth-tester/raw/master/remote-host-example/bandwidth-chart.png?raw=true" width="693" height="358"></amp-img>
 
 Also available in [my README file](https://github.com/ecaron/node-bandwidth-tester/blob/master/README.md), this is a quick script to understand latency & bandwidth speed. There are a couple thousand versions of bandwidth tests on the web, and this is just my own. I wanted a tiny one that worked well on a [Raspberry Pi Zero](https://www.raspberrypi.org/products/pi-zero/) which reminds me I should write a blog post about how much I love mine&hellip;
 
@@ -25,6 +27,7 @@ Also available in [my README file](https://github.com/ecaron/node-bandwidth-test
 
 ## [CaronKids.com](https://caronkids.com/)
 ![Homepage Screenshot](/assets/images/caronkids-screenshot.png)
+<amp-img src="/assets/images/caronkids-screenshot.png" width="600" height="218"></amp-img>
 
 In 2012, TechCrunch [ran at article](https://techcrunch.com/2012/02/15/babynotify-you-know-for-notifying-people-when-your-baby-comes/) about an app to notify people when your baby is born. Unfortunately it didn't handle timezones that well, so my family was told the wrong date, time and weight (not related to timezone, just confusions with English measurements).
 

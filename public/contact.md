@@ -1,6 +1,5 @@
 # Contact Me
-
-The best way to reach me is [eric.caron@gmail.com](mailto:eric.caron@gmail.com).
+The best way to reach me is [eric.caron@gmail.com](mailto:eric.caron@gmail.com). You can also [download my PGP key](pgp.txt).
 
 Sorry there's no form to fill out on this page, nor a phone number. There's also not a physical address, because email is sufficient for almost everything.
 
@@ -50,7 +49,7 @@ Sorry there's no form to fill out on this page, nor a phone number. There's also
       <h3>
         <i class="ui icon pied piper hat"></i>
         [Pied Piper](http://www.piedpiper.com/)
-        <div style="font-size:.8em;color:#608c28;padding-left:2em;cursor:default">[Beta Access]</div>
+        <div class="beta-tag">[Beta Access]</div>
       </h3>
     </div>
   </div>

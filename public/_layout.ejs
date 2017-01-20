@@ -2,7 +2,7 @@
   <% if (locals.ampHeadline) { %>
     <%- partial('_layout_amp') %>
   <% } else { %>
-    AMP version of this page does not exist.
+    <%- partial('_layout_amp_redirect') %>
   <% } %>
 <% } else { %>
   <%- partial('_layout_main') %>

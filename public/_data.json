@@ -1,8 +1,9 @@
 {
   "contact": {
-    "title": "Contact Eric Caron - EricCaron.com"
+    "title": "Contact Eric Caron - EricCaron.com",
+    "ampHeadline": "Contact Eric Caron"
   },
   "index": {
-    "ampHeadline": "Yo"
+    "ampHeadline": "Primary source for all information about Eric Caron"
   }
 }

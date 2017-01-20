@@ -51,7 +51,7 @@
     </style>
   </head>
   <body>
-    <%- yield %>
+    <%- yield.replace(/<img[^>]*>/g, '') %>
     <% if (environment == 'production') { %>
     <amp-analytics type="googleanalytics">
       <script type="application/json">

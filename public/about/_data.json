@@ -1,16 +1,19 @@
 {
   "index": {
     "title": "About Eric Caron - EricCaron.com",
-    "ampHeadline": "About me, yo."
+    "ampHeadline": "Eric Caron's personal biography [abridged]"
   },
   "articles": {
-    "title": "Articles & Talks by Eric - EricCaron.com"
+    "title": "Articles & Talks by Eric - EricCaron.com",
+    "ampHeadline": "The official source for all links to all talks given and articles written by Eric Caron"
   },
   "side-projects": {
-    "title": "Side Projects of Eric - EricCaron.com"
+    "title": "Side Projects of Eric - EricCaron.com",
+    "ampHeadline": "The official source for all the side projects that Eric has and is working on"
   },
   "this-site": {
-    "title": "What Powers EricCaron.com"
+    "title": "What Powers EricCaron.com",
+    "ampHeadline": "A detailed explanation of the code & techniques used to power EricCaron.com"
   },
   "ephs-speech-team": {
     "title": "Eden Prairie Speech Team - EricCaron.com"

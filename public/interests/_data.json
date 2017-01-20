@@ -1,20 +1,26 @@
 {
   "index": {
-    "title": "Interests of Eric Caron - EricCaron.com"
+    "title": "Interests of Eric Caron - EricCaron.com",
+    "ampHeadline": "Learn about the interests of Eric Caron"
   },
   "minnesota-tech-scene": {
-    "title": "Minnesota Tech Scene - EricCaron.com"
+    "title": "Minnesota Tech Scene - EricCaron.com",
+    "ampHeadline": "Eric Caron's opinions and links to the Minnesota tech scene"
   },
   "minnesota-food-scene": {
-    "title": "Minnesota Food Scene - EricCaron.com"
+    "title": "Minnesota Food Scene - EricCaron.com",
+    "ampHeadline": "Eric Caron's opinions and links to the Minnesota food scene"
   },
   "recruiting-and-people-management": {
-    "title": "Recruiting & People Management - EricCaron.com"
+    "title": "Recruiting & People Management - EricCaron.com",
+    "ampHeadline": "Eric Caron's opinions on recruiting and people management"
   },
   "open-source-and-programming": {
-    "title": "Open Source & Programming - EricCaron.com"
+    "title": "Open Source & Programming - EricCaron.com",
+    "ampHeadline": "Eric Caron's opinions on open source and programming"
   },
   "product-management-and-apis": {
-    "title": "Product Management & APIs - EricCaron.com"
+    "title": "Product Management & APIs - EricCaron.com",
+    "ampHeadline": "Eric Caron's opinions on product management and APIs"
   }
 }
