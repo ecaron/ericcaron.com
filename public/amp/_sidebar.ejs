@@ -1,0 +1,115 @@
+<amp-sidebar id='sidebar' layout="nodisplay">
+  <amp-img class='close' src="/assets/images/amp/ic_chevron_left_black_24dp_2x.png" width="32" height="32" alt="Close" on="tap:sidebar.close" role="button" tabindex="0"></amp-img>
+  <header>
+    <a href="/" class="home">EricCaron.com</a>
+  </header>
+  <hr/>
+  <amp-accordion>
+    <section <%- current.path[0] == 'about' ? 'expanded' : '' %> >
+      <h4>
+        <div class="show-more category">About</div>
+        <div class="show-less category expanded">About</div>
+      </h4>
+      <div>
+        <div class="item">
+          <a class="<%- (current.source == 'index' && current.path[0] == 'about') ? 'selected' : '' %>" href="/about/">
+            About Eric Caron
+          </a>
+        </div>
+        <div class="item">
+          <a class="<%- current.source == 'articles' ? 'selected' : '' %>" href="/about/articles.html">
+            My Articles &amp; Talks
+          </a>
+        </div>
+        <div class="item">
+          <a class="<%- current.source == 'side-projects' ? 'selected' : '' %>" href="/about/side-projects.html">
+            Side Projects
+          </a>
+        </div>
+        <div class="item">
+          <a class="<%- current.source == 'this-site' ? 'selected' : '' %>" href="/about/this-site.html">
+            Code Powering This Site
+          </a>
+        </div>
+      </div>
+    </section>
+    <section <%- current.path[0] == 'interests' ? 'expanded' : '' %> >
+      <h4>
+        <div class="show-more category">Interests</div>
+        <div class="show-less category expanded">Interests</div>
+      </h4>
+      <div>
+        <div class="item">
+          <a class="<%- current.source == 'minnesota-tech-scene' ? 'selected' : '' %>" href="/interests/minnesota-tech-scene.html">
+            Minnesota Tech Scene
+          </a>
+        </div>
+        <div class="item">
+          <a class="<%- current.source == 'minnesota-food-scene' ? 'selected' : '' %>" href="/interests/minnesota-food-scene.html">
+            Minnesota Food Scene
+          </a>
+        </div>
+        <div class="item">
+          <a class="<%- current.source == 'open-source-and-programming' ? 'selected' : '' %>" href="/interests/open-source-and-programming.html">
+            Open Source &amp; Programming
+          </a>
+        </div>
+        <div class="item">
+          <a class="<%- current.source == 'recruiting-and-people-management' ? 'selected' : '' %>" href="/interests/recruiting-and-people-management.html">
+            Recruiting &amp; People Management
+          </a>
+        </div>
+        <div class="item">
+          <a class="<%- current.source == 'product-management-and-apis' ? 'selected' : '' %>" href="/interests/product-management-and-apis.html">
+            Product Management &amp; APIs
+          </a>
+        </div>
+      </div>
+    </section>
+    <section  <%- current.path[0] == 'contact' ? 'expanded' : '' %>>
+      <h4>
+        <div class="show-more category">Contact</div>
+        <div class="show-less category expanded">Contact</div>
+      </h4>
+      <div>
+        <div class="item">
+          <a  href="/contact.html" class="<%- current.source == 'contact' ? 'selected' : '' %>">Contact Information
+          </a>
+        </div>
+        <div class="item">
+          <a  href="mailto:eric.caron@gmail.com">Email Me
+          </a>
+        </div>
+        <div class="item">
+          <a href="https://github.com/ecaron" target="_blank">GitHub
+          </a>
+        </div>
+        <div class="item">
+          <a href="https://twitter.com/ecaron" target="_blank">Twiter
+          </a>
+        </div>
+        <div class="item">
+          <a href="https://www.linkedin.com/in/ecaron" target="_blank">LinkedIn
+          </a>
+        </div>
+      </div>
+    </section>
+  </amp-accordion>
+  <hr/>
+  <footer>
+    <h3>Share This Page</h3>
+    <div>
+      <amp-social-share type="email"></amp-social-share>
+      <amp-social-share type="facebook"
+          data-param-app_id="254325784911610"></amp-social-share>
+      <amp-social-share type="gplus"></amp-social-share>
+      <amp-social-share type="linkedin"></amp-social-share>
+    </div>
+    <div>
+      <amp-social-share type="pinterest"></amp-social-share>
+      <amp-social-share type="tumblr"></amp-social-share>
+      <amp-social-share type="twitter"></amp-social-share>
+      <amp-social-share type="whatsapp"></amp-social-share>
+    </div>
+  </footer>
+</amp-sidebar>

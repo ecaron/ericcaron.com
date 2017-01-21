@@ -2,6 +2,9 @@
   "globals": {
     "title": "EricCaron.com",
     "description": "",
-    "buildNumber": "$BUILD_NUMBER"
+    "buildNumber": "$BUILD_NUMBER",
+    "BUILD_TYPE": "$BUILD_TYPE",
+    "MAIN_SERVER": "$MAIN_SERVER",
+    "AMP_SERVER": "$AMP_SERVER"
   }
 }
