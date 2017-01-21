@@ -101,8 +101,8 @@ code, pre {
 }
 .anchor-img {
   background-image: -webkit-image-set(
-  url(/img/ic_link_black_1x_web_18dp.png) 1x,
-  url(/img/ic_link_black_2x_web_18dp.png) 2x
+  url(/assets/images/amp/ic_link_black_1x_web_18dp.png) 1x,
+  url(/assets/images/amp/ic_link_black_2x_web_18dp.png) 2x
   );
   width: 18px;
   height: 18px;
@@ -278,15 +278,15 @@ section[expanded].hidden-section .hidden-section-show-more {
 .gist {
   background-position: right 8px center;
   background-repeat: no-repeat;
-  background-image: url(/img/gist.png);
+  background-image: url(/assets/images/amp/gist.png);
 }
 
 .show-preview {
   background-position: right 8px center;
   background-repeat: no-repeat;
   background-image: -webkit-image-set(
-  url(/img/ic_play_circle_filled_black_1x_web_24dp.png) 1x,
-  url(/img/ic_play_circle_filled_black_2x_web_24dp.png) 2x
+  url(/assets/images/amp/ic_play_circle_filled_black_1x_web_24dp.png) 1x,
+  url(/assets/images/amp/ic_play_circle_filled_black_2x_web_24dp.png) 2x
   );
 }
 
@@ -306,7 +306,7 @@ header #logo {
   background-repeat: no-repeat;
   height: 62px;
   width: 500px;
-  background-image: url(/img/logo.svg);
+  background-image: url(/assets/images/amp/logo.svg);
 }
 
 header .button {

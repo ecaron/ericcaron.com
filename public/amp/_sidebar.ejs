@@ -1,0 +1,65 @@
+    <amp-sidebar id='sidebar' layout="nodisplay">
+      <amp-img class='close' src="/assets/images/amp/ic_chevron_left_black_24dp_2x.png" width="32" height="32" alt="Close" on="tap:sidebar.close" role="button" tabindex="0"></amp-img>
+      <div class="topheader">
+        <a href="/" class="home">EricCaron.com</a>
+      </div>
+      <hr/>
+      <amp-accordion>
+        <section  >
+          <h4>
+            <div class="show-more category">Home</div>
+            <div class="show-less category expanded">Home</div>
+          </h4>
+          <div>
+            <div class="item">
+              <a  href="/introduction/hello_world/">Hello World
+              </a>
+            </div>
+            <div class="item">
+              <a  href="/introduction/how_to_publish_amps/">How to publish AMPs
+              </a>
+            </div>
+          </div>
+        </section>
+        <section <%- current.path[0] == 'about' ? 'expanded' : '' %> >
+          <h4>
+            <div class="show-more category">About</div>
+            <div class="show-less category expanded">Components</div>
+          </h4>
+          <div>
+            <div class="item">
+              <a  href="/components/amp-access/">amp-access
+              </a>
+            </div>
+          </div>
+        </section>
+        <section <%- current.path[0] == 'interests' ? 'expanded' : '' %> >
+          <h4>
+            <div class="show-more category">About</div>
+            <div class="show-less category expanded">Components</div>
+          </h4>
+          <div>
+            <div class="item">
+              <a  href="/components/amp-access/">amp-access
+              </a>
+            </div>
+          </div>
+        </section>
+        <section  >
+          <h4>
+            <div class="show-more category">Contact</div>
+            <div class="show-less category expanded">Contact</div>
+          </h4>
+          <div>
+            <div class="item">
+              <a  href="/introduction/hello_world/">Hello World
+              </a>
+            </div>
+            <div class="item">
+              <a  href="/introduction/how_to_publish_amps/">How to publish AMPs
+              </a>
+            </div>
+          </div>
+        </section>
+      </amp-accordion>
+    </amp-sidebar>
