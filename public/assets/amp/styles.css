@@ -209,7 +209,7 @@ section[expanded].hidden-section .hidden-section-show-more {
   padding: 8px 0;
 }
 
-.hidden-section > header {
+.hidden-section > #main header {
   padding: 0;
   border: none;
   box-shadow: none;
@@ -217,7 +217,7 @@ section[expanded].hidden-section .hidden-section-show-more {
 
 
 /* header */
-header {
+#main header {
   background-color: #2d1723;
   box-shadow: 0 2px 2px 0 rgba(0,0,0,.14),0 3px 1px -2px rgba(0,0,0,.2),0 1px 5px 0 rgba(0,0,0,.12);
   display: flex;
@@ -225,7 +225,7 @@ header {
   align-items: center;
   justify-content: space-between;
 }
-header .button {
+#main header .button {
   margin-left: 16px;
   padding: 0px;
   height: 40px;
@@ -233,24 +233,24 @@ header .button {
   display: block;
   float: left;
 }
-header .button > amp-img {
+#main header .button > amp-img {
   margin: 8px;
   float: left;
 }
-header .button > span {
+#main header .button > span {
   display: inline-block;
   font-weight: 300;
   line-height: 40px;
   color: white;
   text-transform: uppercase;
 }
-header #hamburger {
+#main header #hamburger {
   align-self: flex-start;
   padding: 8px;
   margin-left: 8px;
   margin-top: 4px;
 }
-header #actions {
+#main header #actions {
   max-width: 50%;
   padding: 0 16px;
   align-self: flex-start;
@@ -258,17 +258,18 @@ header #actions {
   margin-right: 12px;
 }
 
-article {
+#main article {
   padding-left: 18px;
   padding-right: 18px;
 }
+
 /* footer */
-footer {
+#main footer {
   background: #1B1C1D;
   color: rgba(255,255,255,.86);
   padding: 1px 36px 8px 36px;
 }
-footer #switch-space {
+#main footer #switch-space {
   background: rgba(255,255,255,.1);
   text-align: right;
   border-bottom: 1px solid rgba(255,255,255,.1);
@@ -276,37 +277,6 @@ footer #switch-space {
   margin-bottom: 2px;
   margin-left: -36px;
   margin-right: -36px;
-}
-footer ul {
-  display: flex;
-  flex-flow: row;
-  justify-content: center;
-  padding: 0;
-  margin: 0;
-  line-height: 12px;
-}
-
-footer li {
-  display: block;
-  padding: 0 1em;
-  border-left: 1px solid white;
-}
-
-footer ul li:first-child {
-  border-left: none;
-}
-
-footer ul li a {
-  flex-flow: row wrap;
-  justify-content: center;
-  padding: 0;
-  margin: 0;
-  color: white;
-  text-align: center;
-  text-decoration: none;
-  font-weight: 400;
-  line-height: 12px;
-  cursor: pointer;
 }
 
 
@@ -358,7 +328,7 @@ a.card:active {
   .hljs {
     padding: 0 16px;
   }
-  article {
+  #main article {
     padding: 0;
   }
 }
@@ -366,11 +336,17 @@ a.card:active {
   body {
     background: white;
   }
-  article #title {
+  #main article h1 {
     margin-top: 56px;
     padding-bottom: 0px;
+    font-size: 46px;
+    line-height: 1.1;
   }
-  header {
+  #main article h2 {
+    font-size: 36px;
+    line-height: 1.1;
+  }
+  #main header {
     height: 56px;
     flex-direction: row;
     position: fixed;
@@ -378,18 +354,18 @@ a.card:active {
     width: 100%;
     z-index: 1000;
   }
-  header #actions {
+  #main header #actions {
     padding: 8px 16px;
     margin-right: 0px;
   }
-  header .button > span {
+  #main header .button > span {
     display: none;
   }
-  header #hamburger {
+  #main header #hamburger {
     padding: 8px;
     margin: 0;
   }
-  header .hide-on-mobile {
+  #main header .hide-on-mobile {
     display: none;
   }
   .box {

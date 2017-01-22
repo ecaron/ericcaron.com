@@ -50,25 +50,27 @@
   </head>
   <body>
     <%- partial('amp/_sidebar') %>
-    <header>
-      <a id="hamburger" class="button" on='tap:sidebar.toggle'>
-        <amp-img srcset="/assets/images/amp/ic_menu_white_1x_web_24dp.png 1x, /assets/images/amp/ic_menu_white_2x_web_24dp.png 2x" width="24" height="24" alt="navigation"></amp-img>
-      </a>
-    </header>
-    <article>
-      <%- yield.replace(/<img[^>]*>/g, '') %>
-    </article>
-    <footer>
-      <div id="switch-space">
-        <a href="<%= MAIN_SERVER + "/" + fullPath.replace(replace, '') %>">Switch to desktop site</a>
-      </div>
+    <div id="main">
+      <header>
+        <a id="hamburger" class="button" on='tap:sidebar.toggle'>
+          <amp-img srcset="/assets/images/amp/ic_menu_white_1x_web_24dp.png 1x, /assets/images/amp/ic_menu_white_2x_web_24dp.png 2x" width="24" height="24" alt="navigation"></amp-img>
+        </a>
+      </header>
+      <article>
+        <%- yield.replace(/<img[^>]*>/g, '') %>
+      </article>
+      <footer>
+        <div id="switch-space">
+          <a href="<%= MAIN_SERVER + "/" + fullPath.replace(replace, '') %>">Switch to desktop site</a>
+        </div>
 
-      <div>
-        <h4>Thanks For Visiting</h4>
-        <p>ericcaron.com typically redirected to either my GitHub, Twitter or LinkedIn profiles. When I recognized my digital presence was continuing to fragment, I threw this together to organize the chaos.</p>
-        <p>Have suggestions for how I can further improve this site? Please <a href="/contact.html">contact me</a>.</p>
-      </div>
-    </footer>
+        <div>
+          <h4>Thanks For Visiting</h4>
+          <p>ericcaron.com typically redirected to either my GitHub, Twitter or LinkedIn profiles. When I recognized my digital presence was continuing to fragment, I threw this together to organize the chaos.</p>
+          <p>Have suggestions for how I can further improve this site? Please <a href="/contact.html">contact me</a>.</p>
+        </div>
+      </footer>
+    </div>
     <% if (environment == 'production') { %>
       <amp-analytics type="googleanalytics">
         <script type="application/json">
