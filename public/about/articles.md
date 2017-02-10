@@ -8,6 +8,7 @@ If you'd like me to talk to your event or conference, please [email me](mailto:e
 * [6 Things We Should Agree About Email](https://medium.com/@ecaron/6-things-we-should-agree-about-email-7a91b72d909)
 
 ## Articles I'm In
+* [API Innovation at Best Buy](https://getputpost.co/api-innovation-at-best-buy-df521de54941)
 * [Your Worst Hire: Four Lessons from Other People's Mistakes](http://www.javaworld.com/article/2073212/your-worst-hire--four-lessons-from-other-people-s-mistakes.html)
 * [Not everyone is buying Apple's hype of a 'magical, revolutionary' iPad](http://www.minnpost.com/minnov8/2010/01/28/15396/not_everyone_is_buying_apples_hype_of_a_magical_revolutionary_ipad)
 * [Server names put the fun in functional](http://www.itworld.com/article/2827149/it-management/server-names-put-the-fun-in-functional.html)
