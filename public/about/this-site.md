@@ -18,4 +18,4 @@ Don't know what a static site generator site? Basically it lets you have bunch o
 4. The site runs `grunt build` to convert the Semantic UI templates in CSS, and `harp compile` to convert the Markdown & EJS files to flat HTML
 5. The output is stored in a directory on the webserver, and [nginx](http://nginx.org/) keeps serving those files without there ever being any downtime
 
-This formula gives me the flexibility of making updates from my phone, using GitHub's mobile applications, and having most of my content in easy-to-read [Markdown](https://en.wikipedia.org/wiki/Markdown). So far I'm thrilled with this experiment and think [Harp](https://harpjs.com/) is a brilliant solution for anyone else wanting a static website.
+This formula gives me the flexibility of making updates from my phone, using GitHub's mobile applications, and having most of my content in easy-to-read [Markdown](http://commonmark.org/). So far I'm thrilled with this experiment and think [Harp](https://harpjs.com/) is a brilliant solution for anyone else wanting a static website.
