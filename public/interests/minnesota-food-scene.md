@@ -16,6 +16,5 @@ It is no secret that Minnesota has a lot of great restaurants and a lot of great
 * [10 Tips for the Greatest Grilled Cheese](https://web.archive.org/web/20090220064840/http://food.yahoo.com/blog/editorspicks/2430/10-tips-for-the-greatest-grilled-cheese)
 * [Scallops Wrapped in Bacon](http://www.foodnetwork.com/recipes/scallops-wrapped-in-bacon-recipe.html)
 * [Microwave Chocolate Mug Brownie](http://www.food.com/recipe/microwave-chocolate-mug-brownie-349246)
-* [Everything on KrystalCooks.com](https://krystalcooks.com/)
 
 Have a food place suggestion I should try? [Tell me about it!](mailto:eric.caron@gmail.com)
