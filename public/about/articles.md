@@ -17,6 +17,7 @@ If you'd like me to talk to your event or conference, please [email me](mailto:e
 * [Server names put the fun in functional](http://www.itworld.com/article/2827149/it-management/server-names-put-the-fun-in-functional.html)
 
 ## Talks
+* [Locations, Loyalty & Lattes in the Mobile World](https://www.slideshare.net/ecaron/locations-loyalty-lattes-in-the-mobile-world)
 * [InnerSource - Using open source best practices to help your company](https://www.slideshare.net/ecaron/innersource-using-open-source-best-practices-to-help-your-company)
 * [The Blessings and Curses of Offering a Free Public API](https://apiworld2016.sched.org/event/7tRQ/the-blessings-and-curses-of-offering-a-free-public-api)
 * [API Management Tools](https://github.com/minnesota-apis/may-2016-kong)
