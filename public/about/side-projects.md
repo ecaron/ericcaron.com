@@ -35,10 +35,5 @@ I quickly bought KalebCaron.com, put the right information on it, and told the f
 <div class="ui divider"></div>
 
 
-## [Flickr to Google Migrator](https://github.com/ecaron/flickr-to-google-migrator)
-A very small project that still isn't complete. I'm working on a fluid way to transfer my wife's 10k+ photos from Flickr to Google Photos. I'm still looking for a photo platform that is mind-blowing and haven't found it yet. But I'm still looking.
-<div class="ui divider"></div>
-
-
 ## Open Source Contributions
 The best way to read what I've been doing on open source is by checking out [my GitHub account](https://github.com/ecaron#js-contribution-activity).
