@@ -4,7 +4,6 @@ What would you like to know? The [home page](/) covers the basic gist of why thi
 ## "About Me" Links
 * [My Articles & Talks](/about/articles.html)
 * [Side Projects](/about/side-projects.html)
-* [Eden Prairie Speech Team](/about/ephs-speech-team.html)
 * [CaronKids.com](https://caronkids.com)
 
 ## My [Short Form] Biography
