@@ -10,25 +10,25 @@ Sorry there's no form to fill out on this page, nor a phone number. There's also
     <div class="column">
       <h3>
         <i class="ui icon github"></i>
-        [GitHub](https://github.com/ecaron)
+        <a href="https://github.com/ecaron">GitHub</a>
       </h3>
     </div>
     <div class="column">
       <h3>
         <i class="ui icon twitter"></i>
-        [Twitter](https://twitter.com/ecaron)
+        <a href="https://twitter.com/ecaron">Twitter</a>
       </h3>
     </div>
     <div class="column">
       <h3>
         <i class="ui icon linkedin"></i>
-        [LinkedIn](https://www.linkedin.com/in/ecaron)
+        <a href="https://www.linkedin.com/in/ecaron">LinkedIn</a>
       </h3>
     </div>
     <div class="column">
       <h3>
         <i class="ui icon angellist"></i>
-        [AngelList](https://angel.co/eric-caron)
+        <a href="https://angel.co/eric-caron">AngelList</a>
       </h3>
     </div>
   </div>
@@ -36,19 +36,19 @@ Sorry there's no form to fill out on this page, nor a phone number. There's also
     <div class="column">
       <h3>
         <i class="ui icon hacker news"></i>
-        [Hacker News](https://news.ycombinator.com/user?id=ecaron)
+        <a href="https://news.ycombinator.com/user?id=ecaron">Hacker News</a>
       </h3>
     </div>
     <div class="column">
       <h3>
         <i class="ui icon medium"></i>
-        [Medium](https://medium.com/@ecaron)
+        <a href="https://medium.com/@ecaron">Medium</a>
       </h3>
     </div>
     <div class="column">
       <h3>
         <i class="ui icon pied piper hat"></i>
-        [Pied Piper](http://www.piedpiper.com/)
+        <a href="http://www.piedpiper.com/">Pied Piper</a>
         <div class="beta-tag">[Beta Access]</div>
       </h3>
     </div>
