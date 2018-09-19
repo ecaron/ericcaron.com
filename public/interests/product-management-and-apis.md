@@ -31,7 +31,7 @@ Like most things in computers, there are lots and lots of opinions on it. I do m
 Of the many places online that try to answer this, I'm most fond of [Quora's answer](https://www.quora.com/What-is-the-difference-between-Program-Product-and-Project-manager-roles). Their answer basically breaks down to:
 * **<u>Product</u> Manager** is the business owner for a team. They're responsible for making decisions, planning roadmaps, understanding the customer, representing the business, and managing the overall team's well-being.
 * **<u>Project</u> Manager** keeps everything moving by scheduling meetings, watching budgets, ensuring vision gets translated into action, and making sure the team has all the necessary building blocks for success.
-* **<u>Program Manager</u>** is the less common role, and I think the position is morphing more into a Lead Architect. This is the person that knows the technological capabilities, hears the business requests, and calls out challenges to make the two meet.
+* **<u>Program</u> Manager** is the less common role, and I think the position is morphing more into a Lead Architect. This is the person that knows the technological capabilities, hears the business requests, and calls out challenges to make the two meet.
 
 ### Useful Product Management Links
 * [Trello](https://trello.com/) - For basic task management
