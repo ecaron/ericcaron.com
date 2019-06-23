@@ -3,6 +3,7 @@
 If you'd like me to talk to your event or conference, please [email me](mailto:eric.caron@gmail.com). I prefer to avoid events in November, since that's a busy time of year. Also I would like two months notice for any events outside of Minnesota, so I can make all the necessary arrangements without stressing the family.
 
 ## Articles I've Written
+* [Is Your App Sparking Joy?](https://www.cioreview.com/cxoinsight/is-your-app-sparking-joy-nid-28566-cid-19.html)
 * [What your company website’s source code is saying about your business
 ](https://medium.com/@ecaron/what-a-companys-source-code-says-about-the-company-593baa03fb92)
 * [Conferences & Minnebar: It isn’t about the talks. It’s about the talking.](https://medium.com/@ecaron/conferences-minnebar-it-isnt-about-the-talks-it-s-about-the-talking-51e2c73378b3)
