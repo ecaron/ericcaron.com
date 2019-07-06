@@ -3,7 +3,7 @@
 It is no secret that Minnesota has a lot of great restaurants and a lot of great breweries. This isn't a place where I'll write reviews, for that I'll use [Yelp](https://www.yelp.com/user_details?userid=QglmfuzA7ceOAyFV4_eFdA). This page is just where I bookmark the restaurants that I love so much I don't want to forget.
 
 ## In no particular order:
-* [YoYo Donuts](http://yoyodonuts.com/) - Donuts & coffee
+* [Caribou Coffee](https://www.cariboucoffee.com/) - Coffee
 * [Blue Door Pub](http://www.thebdp.com/) - Burgers & beer
 * [Surly Brewing](http://surlybrewing.com/) - Beer & meat
 * [Aurelia's](http://mamaaurelia.com/) - Mexican

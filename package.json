@@ -1,6 +1,6 @@
 {
   "name": "ericcaron.com",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Static generator for EricCaron.com",
   "main": "index.js",
   "private": true,
@@ -8,7 +8,9 @@
     "start": "parallelshell 'npm run startMainServer' 'npm run startAmpServer'",
     "startMainServer": "BUILD_NUMBER=developer BUILD_TYPE=main AMP_SERVER=http://localhost:3002 harp server --port 3001",
     "startAmpServer": "BUILD_NUMBER=developer BUILD_TYPE=amp MAIN_SERVER=http://localhost:3001 harp server --port 3002",
-    "compile": "BUILD_NUMBER=`git rev-parse --short HEAD` harp compile public build",
+    "compileMain": "AMP_SERVER=http://localhost MAIN_SERVER=http://localhost BUILD_TYPE=main BUILD_NUMBER=`git rev-parse --short HEAD` harp compile www",
+    "compileAmp": "AMP_SERVER=http://localhost MAIN_SERVER=http://localhost BUILD_TYPE=amp BUILD_NUMBER=`git rev-parse --short HEAD` harp compile www-amp",
+    "compile": "parallelshell 'npm run compileMain' 'npm run compileAmp'",
     "edit-style": "BUILD_NUMBER=developer harp server & gulp watch"
   },
   "repository": {
@@ -22,38 +24,11 @@
   },
   "homepage": "https://github.com/ecaron/ericcaron.com#readme",
   "devDependencies": {
-    "better-console": "^0.2.4",
-    "del": "^2.2.2",
-    "extend": "^3.0.0",
-    "gulp": "^3.9.1",
-    "gulp-autoprefixer": "^3.1.1",
-    "gulp-chmod": "^2.0.0",
-    "gulp-clean-css": "^2.0.13",
-    "gulp-clone": "^1.0.0",
-    "gulp-concat": "^2.6.1",
-    "gulp-concat-css": "^2.3.0",
-    "gulp-copy": "0.0.2",
-    "gulp-dedupe": "0.0.2",
-    "gulp-flatten": "^0.3.1",
-    "gulp-header": "^1.8.8",
-    "gulp-help": "^1.6.1",
-    "gulp-if": "^2.0.2",
-    "gulp-less": "^3.3.0",
-    "gulp-notify": "^2.2.0",
-    "gulp-plumber": "^1.1.0",
-    "gulp-print": "^2.0.1",
-    "gulp-rename": "^1.2.2",
-    "gulp-replace": "^0.5.4",
-    "gulp-rtlcss": "^1.0.0",
-    "gulp-uglify": "^2.0.0",
-    "gulp-util": "^3.0.7",
-    "gulp-watch": "^4.3.10",
-    "harp": "^0.22.0",
-    "map-stream": "0.0.6",
-    "parallelshell": "^2.0.0",
-    "require-dot-file": "^0.4.0",
-    "run-sequence": "^1.2.2",
-    "semantic-ui": "^2.2.6",
-    "yamljs": "^0.2.8"
+    "harp": "^0.30.0",
+    "parallelshell": "3.0.1",
+    "semantic-ui": "^2.4.2"
+  },
+  "engines": {
+    "node": ">=10 <11"
   }
 }

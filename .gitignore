@@ -5,6 +5,7 @@ npm-debug.log*
 
 # Where we keep the static compilations
 www/
+www-amp/
 public/assets/semantic/
 
 # Dependency directories
