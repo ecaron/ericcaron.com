@@ -5,13 +5,8 @@
   "main": "index.js",
   "private": true,
   "scripts": {
-    "start": "parallelshell 'npm run startMainServer' 'npm run startAmpServer'",
-    "startMainServer": "BUILD_NUMBER=developer BUILD_TYPE=main AMP_SERVER=http://localhost:3002 harp server --port 3001",
-    "startAmpServer": "BUILD_NUMBER=developer BUILD_TYPE=amp MAIN_SERVER=http://localhost:3001 harp server --port 3002",
-    "compileMain": "AMP_SERVER=http://localhost MAIN_SERVER=http://localhost BUILD_TYPE=main BUILD_NUMBER=`git rev-parse --short HEAD` harp compile www",
-    "compileAmp": "AMP_SERVER=http://localhost MAIN_SERVER=http://localhost BUILD_TYPE=amp BUILD_NUMBER=`git rev-parse --short HEAD` harp compile www-amp",
-    "compile": "parallelshell 'npm run compileMain' 'npm run compileAmp'",
-    "edit-style": "BUILD_NUMBER=developer harp server & gulp watch"
+    "start": "eleventy --serve",
+    "build": "eleventy"
   },
   "repository": {
     "type": "git",
@@ -23,12 +18,9 @@
     "url": "https://github.com/ecaron/ericcaron.com/issues"
   },
   "homepage": "https://github.com/ecaron/ericcaron.com#readme",
-  "devDependencies": {
-    "harp": "ecaron/harp",
-    "parallelshell": "3.0.1",
-    "fomantic-ui": "ecaron/Fomantic-UI"
-  },
-  "engines": {
-    "node": ">=10 <11"
+  "devDependencies": {},
+  "dependencies": {
+    "@11ty/eleventy": "^0.8.3",
+    "smartquotes": "^2.3.1"
   }
 }
