@@ -1,38 +1,26 @@
-const smartquotes = require( 'smartquotes' );
+const smartquotes = require('smartquotes');
+const less = require('less');
+const CleanCSS = require('clean-css');
 
-module.exports = function( config )
-{
-	// config.addCollection( 'locations', collection =>
-	// {
-	// 	return collection
-	// 		.getFilteredByGlob( 'src/locations/*.md' )
-	// 		.filter( location => !location.data.hidden );
-	// });
+module.exports = function (config) {
+  config.addNunjucksAsyncFilter('cssmin', function(code, callback) {
+    less.render(code, {}, function(error, output) {
+      let minCSS = new CleanCSS({}).minify(output.css).styles;
+      return callback(null, minCSS);
+    });
+  });
 
-	// config.addFilter( 'classify', string =>
-	// {
-	// 	let neighborhoods = string.split( ',' );
-	// 	let classes = neighborhoods.map( neighborhood =>
-	// 	{
-	// 		return `nbh-${neighborhood.toLowerCase()}`;
-	// 	});
+  config.addFilter('smartquotes', string => {
+    return smartquotes(string);
+  });
 
-	// 	return classes.join( ' ' );
-	// });
+  config.addPassthroughCopy('src/assets');
 
-	config.addFilter( 'smartquotes', string =>
-	{
-		return smartquotes( string );
-	});
+  return {
+    dir: {
+      input: 'src'
+    },
 
-	config.addLayoutAlias('', '/_includes/index.njk');
-
-	return {
-		dir: {
-			input: 'src',
-			output: 'dist',
-		},
-
-		templateFormats: ['njk', 'md', 'css', 'js', 'html'],
-	};
+    templateFormats: ['njk', 'md', 'css', 'js', 'html', 'txt']
+  };
 };

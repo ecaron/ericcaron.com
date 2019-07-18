@@ -1,3 +1,8 @@
+---
+permalink: interests/recruiting-and-people-management.html
+layout: 2018.njk
+title: Recruiting & People Management - EricCaron.com
+---
 # Recruiting and People Management
 
 While working at the [Daily](http://www.mndaily.com/), I learned about the challenges of recruiting and interviewing people. At [LinkUp](http://www.linkup.com/) I still dealt with the complexities of hiring/interviewing/managing, but also spent 7 years lamenting with the challenges of being a job seeker. Although I've given talks and [written in books](https://books.google.com/books?isbn=1600052002) about jobseeking, advice to jobseekers is pretty timeless:

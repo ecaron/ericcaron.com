@@ -1,3 +1,8 @@
+---
+permalink: interests/product-management-and-apis.html
+layout: 2018.njk
+title: Product Management & APIs - EricCaron.com
+---
 # Product Management and APIs
 
 I'm still not entirely sold on blending these two topics onto the same page. But they're both such niche topics (good for you for reading this, by the way) and I rarely think of one without the other, so for now they're together.

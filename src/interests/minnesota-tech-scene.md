@@ -1,3 +1,8 @@
+---
+permalink: interests/minnesota-tech-scene.html
+layout: 2018.njk
+title: Minnesota Tech Scene - EricCaron.com
+---
 # Minnesota Technology Scene
 
 Just behind family, the #2 reason that I stay in Minnesota is the amazing tech scene (both the people and the companies). I'm not alone in thinking it is amazing, in fact one person made a documentary on the [Minnesota Technology Scene](http://documntary.com/).

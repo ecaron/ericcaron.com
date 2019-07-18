@@ -1,3 +1,7 @@
+---
+title: About Eric Caron - EricCaron.com
+layout: 2018.njk
+---
 # About Me
 What would you like to know? The [home page](/) covers the basic gist of why this site exists, and [LinkedIn](https://www.linkedin.com/in/ecaron) is the closest I'll get to publicly posting a résumé online.
 

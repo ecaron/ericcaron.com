@@ -1,27 +1,27 @@
-<!-- Note to self: If you edit this, don't forget the AMP counterpart... -->
+---
+title: Welcome to EricCaron.com
+layout: 2018.njk
+---
 <div class="ui inverted vertical masthead center aligned segment">
-
-  <% if (BUILD_TYPE != 'amp') { %>
-    <div class="ui container stackable grid">
-      <div class="ui large secondary pointing menu inverted nine wide column">
-        <%- partial("_header-left") %>
-      </div>
-      <div class="item seven wide column">
-        <a class="ui inverted button" href="https://www.linkedin.com/in/ecaron">
-          <i class="linkedin square icon"></i>
-          <span>LinkedIn</span>
-          </a>
-        <a class="ui inverted button" href="https://github.com/ecaron">
-          <i class="github square icon"></i>
-          <span>GitHub</span>
-        </a>
-        <a class="ui inverted button" href="https://twitter.com/ecaron">
-          <i class="twitter square icon"></i>
-          <span>Twitter</span>
-        </a>
-      </div>
+  <div class="ui container stackable grid">
+    <div class="ui large secondary pointing menu inverted nine wide column">
+      {% include "_header-left.njk" %}
     </div>
-  <% } %>
+    <div class="item seven wide column">
+      <a class="ui inverted button" href="https://www.linkedin.com/in/ecaron">
+        <i class="linkedin square icon"></i>
+        <span>LinkedIn</span>
+        </a>
+      <a class="ui inverted button" href="https://github.com/ecaron">
+        <i class="github square icon"></i>
+        <span>GitHub</span>
+      </a>
+      <a class="ui inverted button" href="https://twitter.com/ecaron">
+        <i class="twitter square icon"></i>
+        <span>Twitter</span>
+      </a>
+    </div>
+  </div>
 
   <div class="ui text container">
     <h1 class="ui inverted header">
@@ -47,11 +47,7 @@
         <p>Things that I'll talk about (in no particular order and certainly not all-inclusive): Programming, managing, food, Eden Prairie, open source, hiring, WordPress, email, Minnesota, APIs, family, Hacker News. I probably won't talk about politics or religion, but you're always welcome to ask.</p>
       </div>
       <div class="six wide right floated column">
-        <% if (BUILD_TYPE == 'amp') { %>
-          <amp-img src="assets/images/eric-caron.jpg" width="300" height="420"></amp-img>
-        <% } else { %>
-          <img src="assets/images/eric-caron.jpg" class="ui medium bordered circular image" alt="Headshot of Eric Caron">
-        <% } %>
+        <img src="assets/images/eric-caron.jpg" class="ui medium bordered circular image" alt="Headshot of Eric Caron">
       </div>
     </div>
   </div>

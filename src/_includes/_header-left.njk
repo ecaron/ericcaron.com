@@ -1,0 +1,4 @@
+<a href="/" class="item {% if page.url == '/' %}active{% endif %}">Home</a>
+<a href="/about/" class="item {% if page.url.slice(1, 6) == 'about'%}active{% endif %}">About</a>
+<a href="/interests/" class="item {% if page.url.slice(1, 10) == 'interests'%}active{% endif %}">Interests</a>
+<a href="/contact.html" class="item {% if page.url.slice(1, 7) == 'contact'%}active{% endif %}">Contact Me</a>

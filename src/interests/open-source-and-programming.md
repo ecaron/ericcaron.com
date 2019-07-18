@@ -1,3 +1,8 @@
+---
+permalink: interests/open-source-and-programming.html
+layout: 2018.njk
+title: Open Source & Programming - EricCaron.com
+---
 # Open Source and Programming
 
 Aside from being a paper boy, I've always had technology focused jobs. I had the great fortune of working for [Craig Holland](https://www.linkedin.com/in/craig-holland-61336b33) growing up, and he showed me the world of Linux & open source before it was trending. And I learned to appreciate the community & contribute back - not because it was largely free - but because in many cases it was the best solution. I got started with Perl & PHP on RedHat, learned not every solution is a good idea (*cough*[Corel Linux](https://en.wikipedia.org/wiki/Corel_Linux)*cough*), and have always worked at places that truly appreciated the blend of open & closed source solutions to run a company.

@@ -4,10 +4,7 @@ logs
 npm-debug.log*
 
 # Where we keep the static compilations
-www/
-www-amp/
-dist/
-public/assets/semantic/
+_site
 
 # Dependency directories
 node_modules

@@ -5,8 +5,8 @@
   "main": "index.js",
   "private": true,
   "scripts": {
-    "start": "eleventy --serve",
-    "build": "eleventy"
+    "start": "ELEVENTY_ENV=dev npx @11ty/eleventy --serve",
+    "build": "rimraf _site | ELEVENTY_ENV=production npx @11ty/eleventy"
   },
   "repository": {
     "type": "git",
@@ -18,9 +18,14 @@
     "url": "https://github.com/ecaron/ericcaron.com/issues"
   },
   "homepage": "https://github.com/ecaron/ericcaron.com#readme",
-  "devDependencies": {},
+  "devDependencies": {
+    "semistandard": "^13.0.1"
+  },
   "dependencies": {
     "@11ty/eleventy": "^0.8.3",
+    "clean-css": "^4.2.1",
+    "less": "^3.9.0",
+    "rimraf": "^2.6.3",
     "smartquotes": "^2.3.1"
   }
 }

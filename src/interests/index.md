@@ -1,3 +1,7 @@
+---
+layout: 2018.njk
+title: Interests of Eric Caron - EricCaron.com
+---
 # My Interests
 
 My [About](/about/) page has a lot more information about what drives me. This page is really just a collection of links & resources that are so amazing I want to share them.

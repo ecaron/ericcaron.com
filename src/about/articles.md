@@ -1,5 +1,7 @@
 ---
 permalink: about/articles.html
+layout: 2018.njk
+title: Articles & Talks by Eric - EricCaron.com
 ---
 # My Articles & Talks
 

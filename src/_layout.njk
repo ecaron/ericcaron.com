@@ -1,9 +1,0 @@
-<% if (BUILD_TYPE == 'amp') { %>
-  <% if (locals.ampHeadline) { %>
-    <%- partial('_layout_amp') %>
-  <% } else { %>
-    <%- partial('_layout_amp_redirect') %>
-  <% } %>
-<% } else { %>
-  <%- partial('_layout_main') %>
-<% } %>

@@ -1,3 +1,8 @@
+---
+permalink: interests/minnesota-food-scene.html
+layout: 2018.njk
+title: Minnesota Food Scene - EricCaron.com
+---
 # Minnesota Food & Beer Scene
 
 It is no secret that Minnesota has a lot of great restaurants and a lot of great breweries. This isn't a place where I'll write reviews, for that I'll use [Yelp](https://www.yelp.com/user_details?userid=QglmfuzA7ceOAyFV4_eFdA). This page is just where I bookmark the restaurants that I love so much I don't want to forget.
