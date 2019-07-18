@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  <meta name="theme-color" content="#2d1723">
+
+  <title>{{ title }}</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css" integrity="sha256-9mbkOfVho3ZPXfM7W8sV2SndrGDuh7wuyLjtsWeTI1Q=" crossorigin="anonymous" />
+  {% set css %}
+    {% include "custom.less" %}
+  {% endset %}
+  <style>
+    {{ css | cssmin | safe }}
+  </style>
+  <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha256-/SIrNqv8h6QGKDuNoLGA4iret+kyesCkHGzVUUV0shc=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js" integrity="sha256-t8GepnyPmw9t+foMh3mKNvcorqNHamSKtKRxxpUEgFI=" crossorigin="anonymous"></script>
+  <script>
+  $(document).ready(function() {
+    // fix menu when passed
+    if ($('.masthead').length > 0) {
+      $('.masthead')
+        .visibility({
+          once: false,
+          onBottomPassed: function() {
+            $('.fixed.menu').transition('fade in');
+          },
+          onBottomPassedReverse: function() {
+            $('.fixed.menu').transition('fade out');
+          }
+        });
+    } else {
+      $('.fixed.menu').show();
+    }
+  });
+  {% if project.environment == 'production' %}
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-17290068-2', 'auto');
+    ga('send', 'pageview');
+  {% endif %}
+  </script>
+</head>
+<body>
+
+  <!-- Following Menu -->
+  <div class="ui large fixed hidden menu">
+    <div class="ui container">
+      {% include '_header-left.njk' %}
+      <div class="right menu">
+        <a class="circular ui icon button linkedin" href="https://www.linkedin.com/in/ecaron" title="Eric Caron's LinkedIn Profile"><i class="linkedin icon"></i></a>
+        <a class="circular ui icon button github" href="https://github.com/ecaron" title="Eric Caron's GitHub Profile"><i class="github icon"></i></a>
+        <a class="circular ui icon button twitter" href="https://twitter.com/ecaron" title="Eric Caron's Twitter Account"><i class="twitter icon"></i></a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Page Contents -->
+  {% if page.url == '/' %}
+    {{ content | safe }}
+  {% else %}
+    <div class="ui main text container">
+      {{ content | safe }}
+    </div>
+  {% endif %}
+
+  <div class="ui inverted vertical footer segment">
+    <div class="ui container">
+      <div class="ui stackable inverted divided equal height stackable grid">
+        <div class="three wide column">
+          <h4 class="ui header"><a href="/about/" class="{% if page.url.slice(1, 6) == 'about'%}active{% endif %}">About</a></h4>
+          <div class="ui inverted link list">
+            <a href="/about/articles.html" class="item {% if page.fileSlug == 'articles'%}active{% endif %}">My Articles &amp; Talks</a>
+            <a href="/about/side-projects.html" class="item {% if page.fileSlug == 'side-projects'%}active{% endif %}">Side Projects</a>
+            <a href="/about/this-site.html" class="item {% if page.fileSlug == 'this-site'%}active{% endif %}">Code Powering This Site</a>
+            <a href="/contact.html" class="item {% if page.fileSlug == 'contact'%}active{% endif %}">Contact Me</a>
+          </div>
+        </div>
+        <div class="four wide column">
+          <h4 class="ui header"><a href="/interests/" class="{% if page.url.slice(1, 10) == 'interests'%}active{% endif %}">Interests</a></h4>
+          <div class="ui inverted link list">
+            <a href="/interests/minnesota-tech-scene.html" class="item {% if page.fileSlug == 'innesota-tech-scene'%}active{% endif %}">Minnesota Tech Scene</a>
+            <a href="/interests/minnesota-food-scene.html" class="item {% if page.fileSlug == 'minnesota-food-scene'%}active{% endif %}">Minnesota Food Scene</a>
+            <a href="/interests/recruiting-and-people-management.html" class="item {% if page.fileSlug == 'recruiting-and-people-management'%}active{% endif %}">Recruiting &amp; People Management</a>
+            <a href="/interests/open-source-and-programming.html" class="item {% if page.fileSlug == 'open-source-and-programming'%}active{% endif %}">Open Source &amp; Programming</a>
+            <a href="/interests/product-management-and-apis.html" class="item {% if page.fileSlug == 'product-management-and-apis'%}active{% endif %}">Product Management &amp; APIs</a>
+          </div>
+        </div>
+        <div class="six wide column">
+          <h4 class="ui inverted header">Thanks For Visiting</h4>
+          <p>ericcaron.com typically redirected to either my GitHub, Twitter or LinkedIn profiles. When I recognized my digital presence was continuing to fragment, I threw this together to organize the chaos.</p>
+          <p>Have suggestions for how I can further improve this site? Please <a href="/contact.html">contact me</a>.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
