@@ -5,7 +5,7 @@ title: Articles & Talks by Eric - EricCaron.com
 ---
 # My Articles & Talks
 
-If you'd like me to talk to your event or conference, please [email me](mailto:eric.caron@gmail.com). I prefer to avoid events in November, since that's a busy time of year. Also I would like two months notice for any events outside of Minnesota, so I can make all the necessary arrangements without stressing the family.
+If you'd like me to talk to your event or conference, please [email me](mailto:eric.caron@gmail.com).
 
 ## Articles I've Written
 * [Five Reasons Your Waterfall Team Can't Go Agile](https://agile.cioreview.com/cxoinsight/five-reasons-your-waterfall-team-can-t-go-agile-nid-30711-cid-200.html)
