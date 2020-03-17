@@ -19,13 +19,13 @@
   },
   "homepage": "https://github.com/ecaron/ericcaron.com#readme",
   "devDependencies": {
-    "semistandard": "^13.0.1"
+    "semistandard": "^14.2.0"
   },
   "dependencies": {
-    "@11ty/eleventy": "^0.8.3",
-    "clean-css": "^4.2.1",
-    "less": "^3.9.0",
-    "rimraf": "^2.6.3",
+    "@11ty/eleventy": "^0.10.0",
+    "clean-css": "^4.2.3",
+    "less": "^3.11.1",
+    "rimraf": "^3.0.2",
     "smartquotes": "^2.3.1"
   }
 }
