@@ -7,10 +7,21 @@ title: Side Projects of Eric - EricCaron.com
 Defining "side projects" is a bit tough, because they very a lot in size yet are by no means as impressive as most other projects out there.
 I had toyed with calling them "passion projects", but that would have been unfair as it would exclude the work I loved doing at [LinkUp](http://www.linkup.com/) and [TrackIf](https://trackif.com/) + all my passion projects at [Best Buy](https://developer.bestbuy.com/).
 
-## [IoT Nightlight for My Son](https://github.com/ecaron/hue-website-nightlights)
+## [WaterRower Game](https://github.com/ecaron/waterrower-game)
+![The rowing game in action](https://raw.githubusercontent.com/ecaron/waterrower-game/main/docs/realtime-competition.gif)
+
+Taken from [my README file](https://github.com/ecaron/waterrower-game/blob/master/README.md), This is a simple NodeJS application that connects to a [WaterRower](https://www.waterrower.com/us/) (with the [S4](https://www.waterrower.com/us/shop/accessories/commodule.html) module) and creates charts & games that can be accessed by any web browser.
+
+The app can run on hardware as small as a Raspberry Pi and connects to the WaterRower's S4 with a USB cable.
+
+There are two modes: [Head-to-head competition](https://github.com/ecaron/waterrower-game#head-to-head-competition) and [Real-time Charting](https://github.com/ecaron/waterrower-game#real-time-charting). This is my way to trick myself into exercising more - so please don't pop my bubble on the ROI of this...
+<div class="ui divider"></div>
+
+
+## [Smart Nighlight Manager](https://github.com/ecaron/smart-nightlight-manager)
 ![The Nightlight in action](https://cloud.githubusercontent.com/assets/70704/12696100/d261de2c-c726-11e5-9022-74036dab6a3a.gif)
 
-Taken from [my README file](https://github.com/ecaron/hue-website-nightlights/blob/master/README.md), I wanted my kids to have a nightlight in their room that:
+Taken from [my README file](https://github.com/ecaron/smart-nightlight-manager/blob/master/README.md), I wanted my kids to have a nightlight in their room that:
 * Had programmable color
 * Had an adjustable timer (turns off X minutes after being turned on)
 * Had an interface to show history of button pushes (so I can see when they were awake)
