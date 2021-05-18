@@ -1,6 +1,6 @@
 {
   "name": "ericcaron.com",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Static generator for EricCaron.com",
   "main": "index.js",
   "private": true,
@@ -19,13 +19,13 @@
   },
   "homepage": "https://github.com/ecaron/ericcaron.com#readme",
   "devDependencies": {
-    "semistandard": "^14.2.0"
+    "standard": "^16.0.3"
   },
   "dependencies": {
-    "@11ty/eleventy": "^0.10.0",
-    "clean-css": "^4.2.3",
-    "less": "^3.11.1",
+    "@11ty/eleventy": "^0.12.1",
+    "clean-css": "^5.1.2",
+    "less": "^4.1.1",
     "rimraf": "^3.0.2",
-    "smartquotes": "^2.3.1"
+    "smartquotes": "^2.3.2"
   }
 }
