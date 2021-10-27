@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/ecaron/ericcaron.com#readme",
   "devDependencies": {
-    "standard": "^16.0.3"
+    "standard": "^16.0.4"
   },
   "dependencies": {
     "@11ty/eleventy": "^0.12.1",
