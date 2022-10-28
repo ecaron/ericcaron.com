@@ -8,6 +8,8 @@ title: Articles & Talks by Eric - EricCaron.com
 If you'd like me to talk to your event or conference, please [email me](mailto:eric.caron@gmail.com).
 
 ## Articles I've Written
+* [Seven Tactics to Reinforce Your Customer Engagement Strategy
+](https://www.customercontactmindxchange.com/customer-engagement-strategy/)
 * [How Caribou Coffee uses reCAPTCHA Enterprise to create safe and frictionless digital experiences](https://cloud.google.com/blog/products/identity-security/caribou-coffee-secures-webpages-with-recaptcha-enterprise)
 * [Five Reasons Your Waterfall Team Can't Go Agile](https://agile.cioreview.com/cxoinsight/five-reasons-your-waterfall-team-can-t-go-agile-nid-30711-cid-200.html)
 * [Is Your App Sparking Joy?](https://www.cioreview.com/cxoinsight/is-your-app-sparking-joy-nid-28566-cid-19.html)
