@@ -22,7 +22,7 @@
     "standard": "^16.0.4"
   },
   "dependencies": {
-    "@11ty/eleventy": "^0.12.1",
+    "@11ty/eleventy": "^1.0.2",
     "clean-css": "^5.1.2",
     "less": "^4.1.1",
     "rimraf": "^3.0.2",
