@@ -29,6 +29,7 @@ If you'd like me to talk to your event or conference, please [email me](mailto:e
 * [Server names put the fun in functional](http://www.itworld.com/article/2827149/it-management/server-names-put-the-fun-in-functional.html)
 
 ## Talks
+* [Leverage These Customer Experience Tools to Convert and Retain Your Audience](https://ecommshow.bluetuskr.com/leverage-customer-experience-tools-to-convert-and-retain)
 * [APIs: Oofda! with Eric Caron of Caribou Coffee](https://constantvariables.co/episodes/117)
 * [Startup Mentality, API Management, and Corporate Apps with Eric Caron of Caribou Coffee](https://constantvariables.co/episodes/94)
 * [Locations, Loyalty & Lattes in the Mobile World](https://www.slideshare.net/ecaron/locations-loyalty-lattes-in-the-mobile-world)
