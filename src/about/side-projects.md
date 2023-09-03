@@ -1,6 +1,6 @@
 ---
 permalink: about/side-projects.html
-layout: 2018.njk
+layout: default
 title: Side Projects of Eric - EricCaron.com
 ---
 # My Side Projects & Open Source Contributions

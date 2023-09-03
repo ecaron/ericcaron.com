@@ -1,6 +1,6 @@
 ---
 permalink: interests/recruiting-and-people-management.html
-layout: 2018.njk
+layout: default
 title: Recruiting & People Management - EricCaron.com
 ---
 # Recruiting and People Management

@@ -1,6 +1,6 @@
 ---
 permalink: interests/open-source-and-programming.html
-layout: 2018.njk
+layout: default
 title: Open Source & Programming - EricCaron.com
 ---
 # Open Source and Programming

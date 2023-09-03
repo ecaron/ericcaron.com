@@ -1,6 +1,6 @@
 ---
 permalink: interests/minnesota-tech-scene.html
-layout: 2018.njk
+layout: default
 title: Minnesota Tech Scene - EricCaron.com
 ---
 # Minnesota Technology Scene

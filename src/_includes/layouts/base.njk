@@ -1,0 +1,54 @@
+{%- set metaTitle -%}
+    {%- if not title -%}{{ site.title }} - {{ site.description | safe }}
+    {%- else -%}{{ title | safe }} | {{ site.title }}
+    {%- endif -%}
+{%- endset -%}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>{{ metaTitle }}</title>
+		<link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="{{ metaTitle }}">
+		<link rel="alternate" href="/feed/feed.json" type="application/json" title="{{ metaTitle }}">
+    <link rel="stylesheet" href="{{ '/assets/css/main.css' | url }}">
+  </head>
+  <body class="leading-normal tracking-normal text-white gradient">
+    {% include "partials/header.njk" %}
+		<main id="skip">
+			{{ content | safe }}
+		</main>
+    <footer class="bg-white">
+      <div class="container mx-auto px-8">
+        <div class="w-full flex flex-col md:flex-row py-6">
+          <div class="flex-1">
+            <h4 class="ui header"><a href="/about/" class="{% if page.url.slice(1, 6) == 'about'%}active{% endif %}">About</a></h4>
+            <div class="ui inverted link list">
+              <a href="/about/articles.html" class="item {% if page.fileSlug == 'articles'%}active{% endif %}">My Articles &amp; Talks</a>
+              <a href="/about/side-projects.html" class="item {% if page.fileSlug == 'side-projects'%}active{% endif %}">Side Projects</a>
+              <a href="/about/this-site.html" class="item {% if page.fileSlug == 'this-site'%}active{% endif %}">Code Powering This Site</a>
+              <a href="/contact.html" class="item {% if page.fileSlug == 'contact'%}active{% endif %}">Contact Me</a>
+            </div>
+          </div>
+          <div class="flex-1">
+            <h4 class="ui header"><a href="/interests/" class="{% if page.url.slice(1, 10) == 'interests'%}active{% endif %}">Interests</a></h4>
+            <div class="ui inverted link list">
+              <a href="/interests/minnesota-tech-scene.html" class="item {% if page.fileSlug == 'innesota-tech-scene'%}active{% endif %}">Minnesota Tech Scene</a>
+              <a href="/interests/minnesota-food-scene.html" class="item {% if page.fileSlug == 'minnesota-food-scene'%}active{% endif %}">Minnesota Food Scene</a>
+              <a href="/interests/recruiting-and-people-management.html" class="item {% if page.fileSlug == 'recruiting-and-people-management'%}active{% endif %}">Recruiting &amp; People Management</a>
+              <a href="/interests/open-source-and-programming.html" class="item {% if page.fileSlug == 'open-source-and-programming'%}active{% endif %}">Open Source &amp; Programming</a>
+              <a href="/interests/product-management-and-apis.html" class="item {% if page.fileSlug == 'product-management-and-apis'%}active{% endif %}">Product Management &amp; APIs</a>
+            </div>
+          </div>
+          <div class="flex-1 mb-6 text-black">
+            <h4 class="ui inverted header">Thanks For Visiting</h4>
+            <p>ericcaron.com typically redirected to either my GitHub, Twitter or LinkedIn profiles. When I recognized my digital presence was continuing to fragment, I threw this together to organize the chaos.</p>
+            <p>Have suggestions for how I can further improve this site? Please <a href="/contact.html">contact me</a>.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="{{ '/assets/js/bundle.js' | url }}"></script>
+  </body>
+</html>

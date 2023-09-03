@@ -1,6 +1,6 @@
 ---
 permalink: interests/minnesota-food-scene.html
-layout: 2018.njk
+layout: default
 title: Minnesota Food Scene - EricCaron.com
 ---
 # Minnesota Food & Beer Scene

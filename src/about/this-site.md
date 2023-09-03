@@ -1,6 +1,6 @@
 ---
 permalink: about/this-site.html
-layout: 2018.njk
+layout: default
 title: What Powers EricCaron.com
 ---
 # Resources Powering This Site

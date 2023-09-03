@@ -1,5 +1,5 @@
 ---
-layout: 2018.njk
+layout: default
 title: Interests of Eric Caron - EricCaron.com
 ---
 # My Interests

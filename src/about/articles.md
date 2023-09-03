@@ -1,6 +1,6 @@
 ---
 permalink: about/articles.html
-layout: 2018.njk
+layout: default
 title: Articles & Talks by Eric - EricCaron.com
 ---
 # My Articles & Talks
@@ -39,5 +39,3 @@ If you'd like me to talk to your event or conference, please [email me](mailto:e
 * [Your Friendly Neighbood HTTP Status Codes](http://minnesota-apis.github.io/october-2015-friendly-neighborhood-status-codes/)
 * [Jobseeking: As Tough as it Sounds?](https://www.youtube.com/watch?v=InDkmFN3ov8)
 * [TrackIF Presentation at Minnedemo](https://vimeo.com/76580631)
-
-I'm still working on completing this list (I haven't done a good job of keeping track of all my talks and writings). If you know of one that I've overlooked, [let me know](mailto:eric.caron@gmail.com).

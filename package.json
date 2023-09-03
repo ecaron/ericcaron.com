@@ -1,31 +1,36 @@
 {
-  "name": "ericcaron.com",
-  "version": "0.0.3",
-  "description": "Static generator for EricCaron.com",
-  "main": "index.js",
-  "private": true,
+  "name": "vredeburg",
+  "version": "2.0.0",
+  "description": "A simple starter project to create a blog using Eleventy and Tailwind CSS",
   "scripts": {
-    "start": "ELEVENTY_ENV=dev npx @11ty/eleventy --serve",
-    "build": "rimraf _site | ELEVENTY_ENV=production npx @11ty/eleventy"
+    "start": "npm run serve",
+    "watch": "concurrently -c auto npm:css:watch npm:11ty:watch",
+    "serve": "concurrently -c auto npm:css:watch npm:11ty:serve",
+    "lint": "standard",
+    "build": "npm run css:build && npm run 11ty:build",
+    "11ty:watch": "eleventy --watch --incremental",
+    "11ty:serve": "eleventy --serve --incremental",
+    "11ty:build": "eleventy",
+    "css:watch": "tailwindcss -i src/assets/css/main.css -o dist/assets/css/main.css -w",
+    "css:build": "tailwindcss -i src/assets/css/main.css -o dist/assets/css/main.css -m"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ecaron/ericcaron.com.git"
   },
-  "author": "Eric Caron <eric.caron@gmail.com>",
+  "author": "Eric Caron",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/ecaron/ericcaron.com/issues"
   },
-  "homepage": "https://github.com/ecaron/ericcaron.com#readme",
+  "homepage": "https://ericcaron.com",
   "devDependencies": {
-    "standard": "^16.0.4"
-  },
-  "dependencies": {
-    "@11ty/eleventy": "^0.12.1",
-    "clean-css": "^5.1.2",
-    "less": "^4.1.1",
-    "rimraf": "^3.0.2",
-    "smartquotes": "^2.3.2"
+    "@11ty/eleventy": "^2.0.1",
+    "@11ty/eleventy-plugin-rss": "^1.2.0",
+    "@tailwindcss/typography": "^0.5.9",
+    "concurrently": "^8.2.0",
+    "luxon": "^3.4.0",
+    "standard": "^17.1.0",
+    "tailwindcss": "^3.3.3"
   }
 }

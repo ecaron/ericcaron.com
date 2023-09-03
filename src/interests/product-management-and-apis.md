@@ -1,6 +1,6 @@
 ---
 permalink: interests/product-management-and-apis.html
-layout: 2018.njk
+layout: default
 title: Product Management & APIs - EricCaron.com
 ---
 # Product Management and APIs

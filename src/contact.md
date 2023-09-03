@@ -1,7 +1,7 @@
 ---
 permalink: contact.html
 title: Contact Eric Caron - EricCaron.com
-layout: 2018.njk
+layout: default
 ---
 # Contact Me
 The best way to reach me is [eric.caron@gmail.com](mailto:eric.caron@gmail.com). You can also [download my PGP key](pgp.txt).
